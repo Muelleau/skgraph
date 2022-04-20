@@ -4,5 +4,9 @@ ThisBuild / scalaVersion := "2.13.8"
 
 lazy val skbid = (project in file("."))
   .settings(
-    name := "skgraph"
+    name := "skgraph",
+    libraryDependencies ++= Seq(
+      "junit" % "junit" % "4.13.2" % Test,
+      "org.scalatest" %% "scalatest" % "3.2.11" % Test
+    )
   )
