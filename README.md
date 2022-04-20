@@ -9,6 +9,9 @@ SkGraph is a graph database implemented in Scala.
 This database is intended to allow low latency access to wide sparsely connected graphs. There
 are three basic primitives available, all implemented as traits.
 
+This is very much a work in progress. I will be adding some I/O, peristence, and query optimization in
+the coming days.
+
 ### Concepts
 
 **1.)** **SkEdge**
